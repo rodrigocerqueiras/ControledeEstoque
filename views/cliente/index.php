@@ -10,7 +10,7 @@ echo '<div class="content-wrapper">
 <!-- Content Header (Page header) -->
 <section class="content-header">
   <h1>
-    Cliente
+    Escolas
   </h1>
   <ol class="breadcrumb">
     <li><a href="../"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -29,7 +29,7 @@ echo '<div class="content-wrapper">
     <div class="box-header">
       <i class="ion ion-clipboard"></i>
 
-      <h3 class="box-title">Lista de Clientes</h3>
+      <h3 class="box-title">Lista de Escolas</h3>
 
       <div class="box-tools pull-right">
         <ul class="pagination pagination-sm inline">

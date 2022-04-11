@@ -84,7 +84,6 @@ echo '<div class="content-wrapper">
 
        
 
-
        echo '</div>';
 
        echo  $footer;

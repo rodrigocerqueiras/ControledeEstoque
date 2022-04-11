@@ -65,7 +65,7 @@
       $this->query = "UPDATE `usuario` SET `Username`='$username',`Email`='$email',`imagem`='$nomeimagem' $Permissao WHERE `idUser`= '$idUser'";
       
         $this->result = mysqli_query($this->SQL, $this->query) or die(mysqli_error($this->SQL));
-        mysqli_insert_id($this->result);
+        mysqli_insert_id($this-> result);
         if($this->result){
            header('Location: ../../views/usuarios/index.php?alert=1');
         
